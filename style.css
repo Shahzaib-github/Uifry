@@ -1,0 +1,425 @@
+:root {
+  --primary-color: #ff5555;
+}
+
+body {
+  font-family: "Clash Display", sans-serif !important;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 34px;
+  height: 34px;
+}
+
+.logo-heading {
+  width: 65.78px;
+  height: 29.26px;
+  font-weight: 700;
+  padding-top: 0.8rem;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items a {
+  margin: 0 0.7rem;
+  font-weight: 700;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.cta {
+  margin-right: 1.5rem;
+}
+
+.cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #000;
+  height: 60px;
+  width: 160px;
+}
+.vid-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 160px;
+}
+
+.stars {
+  position: relative;
+}
+
+.right {
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  transition: all 0.3s;
+  animation: float 4s infinite;
+}
+
+.left {
+  position: absolute;
+  transform: rotate(45deg);
+  transition: all 0.3s;
+  animation: float 4s infinite;
+}
+
+.right:hover {
+  top: -1.8rem;
+}
+.left:hover {
+  top: -3px;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+}
+
+.big-heading {
+  font-size: 64px;
+  text-transform: capitalize;
+}
+
+.light-text {
+  opacity: 0.7;
+}
+
+.cta-buttons {
+  display: flex;
+}
+
+.hero-img img {
+  height: 505px;
+  width: 100%;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.back-vector {
+  position: absolute;
+  top: 60px;
+  left: 140px;
+  /* z-index: -3; */
+  transition: all 0.3s;
+}
+
+.back-vector:hover {
+  left: 120px;
+}
+
+.iphone-img-1 {
+  position: relative;
+  z-index: 4;
+}
+
+.iphone-img-2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  z-index: 3;
+}
+.iphone-img-3 {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  z-index: 2;
+}
+
+/* Features */
+
+.features {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 350px;
+}
+
+.feature-blob {
+  position: absolute;
+  left: 420px;
+  top: -57px;
+}
+
+.feature-blob-right {
+  position: absolute;
+  right: 0;
+}
+
+.left-section {
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+
+.back-vector-art {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.back-vector-art:hover {
+  top: -10px;
+}
+
+.iphone-feature {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+}
+
+.right-section {
+  width: 500px;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.footer-inner-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1090px;
+  height: 508px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.footer-left-text {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+}
+
+.footer-left-text h3 {
+  text-transform: capitalize;
+}
+
+.footer-back-vector {
+  position: absolute;
+  bottom: -200px;
+  left: 0;
+  height: 547px;
+  width: 380px;
+}
+.footer-back-vector-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
+  width: 380px;
+  transform: rotate(180deg);
+}
+
+.footer-star-right {
+  position: absolute;
+  top: 60px;
+  right: 400px;
+  animation: float 4s infinite;
+}
+.footer-star-left {
+  position: absolute;
+  bottom: 100px;
+  left: 400px;
+  animation: float 4s infinite;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  width: 160px;
+  height: 60px;
+}
+
+.footer-iphone-1 {
+  position: absolute;
+  bottom: 0;
+  right: 170px;
+  z-index: 2;
+}
+.footer-iphone-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.footer-iphone-3 {
+  position: absolute;
+  bottom: 45px;
+  right: 0px;
+}
+
+.footer-back-vector-bottom {
+  position: absolute;
+  right: -10px;
+  bottom: 20px;
+  width: 220px;
+}
+
+.copyright-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rule {
+  margin-top: 50px;
+  height: 1px;
+  width: 770px;
+  background-color: #000;
+}
+
+/* Float animation */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-20px);
+  }
+}
+
+/* Hero */
+
+.hero-blob {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 650px;
+}
+
+/* Phone  */
+
+.phone-blob {
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  right: -150px;
+}
+
+/* Footer */
+
+.footer-blob {
+  position: absolute;
+  top: -200px;
+  left: 170px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container {
+  position: relative;
+}
+
+.ribbon {
+  position: absolute;
+  left: 400px;
+}
+
+
+.ribbon-star{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    animation: float 4s infinite;
+}
+
+.hero-star{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    animation: float 4s infinite;
+}
+
+.feature-star{
+    position: absolute;
+    top: 50px;
+    left:0;
+    animation: float 4s infinite;
+}
+
+.footer-star{
+    position: absolute;
+    bottom: 600px;
+    right: 0px;
+    animation: float 4s infinite;
+}
+.footer-star-2{
+    position: absolute;
+    bottom: 300px;
+    right: 0px;
+    animation: float 4s infinite;
+}
